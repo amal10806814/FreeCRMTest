@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="40021" started-at="2020-09-02T13:48:40 IST" finished-at="2020-09-02T13:49:21 IST">
+    <groups>
+    </groups>
+    <test name="FreeCRMTest" duration-ms="40021" started-at="2020-09-02T13:48:40 IST" finished-at="2020-09-02T13:49:21 IST">
+      <class name="testCases.HomepageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="setUp" is-config="true" duration-ms="10057" started-at="2020-09-02T13:48:41 IST" finished-at="2020-09-02T13:48:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatelogoTest()[pri:1, instance:testCases.HomepageTest@58c1c010]" name="validatelogoTest" duration-ms="2467" started-at="2020-09-02T13:48:51 IST" finished-at="2020-09-02T13:48:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="tearDown" is-config="true" duration-ms="2070" started-at="2020-09-02T13:48:53 IST" finished-at="2020-09-02T13:48:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="setUp" is-config="true" duration-ms="10159" started-at="2020-09-02T13:48:55 IST" finished-at="2020-09-02T13:49:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateUserTest()[pri:2, instance:testCases.HomepageTest@58c1c010]" name="validateUserTest" duration-ms="1447" started-at="2020-09-02T13:49:05 IST" finished-at="2020-09-02T13:49:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="tearDown" is-config="true" duration-ms="751" started-at="2020-09-02T13:49:07 IST" finished-at="2020-09-02T13:49:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="setUp" is-config="true" duration-ms="10496" started-at="2020-09-02T13:49:07 IST" finished-at="2020-09-02T13:49:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateContactsPageTest()[pri:3, instance:testCases.HomepageTest@58c1c010]" name="validateContactsPageTest" duration-ms="1778" started-at="2020-09-02T13:49:18 IST" finished-at="2020-09-02T13:49:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactsPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="tearDown" is-config="true" duration-ms="740" started-at="2020-09-02T13:49:20 IST" finished-at="2020-09-02T13:49:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomepageTest -->
+    </test> <!-- FreeCRMTest -->
+  </suite> <!-- Default Suite -->
+</testng-results>
