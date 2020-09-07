@@ -33,7 +33,7 @@ public class LoginTest extends TestBase {
     }
 
     @Test(priority = 2)
-    public void LoginTest() throws IOException {
+    public void LoginTest1() throws IOException {
        homepage=  loginpageObj.Login(prop.getProperty("username") , prop.getProperty("password"));
     }
 

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="40021" started-at="2020-09-02T13:48:40 IST" finished-at="2020-09-02T13:49:21 IST">
+  <suite name="Default suite" duration-ms="27261" started-at="2020-09-07T11:11:31Z" finished-at="2020-09-07T11:11:59Z">
     <groups>
     </groups>
-    <test name="FreeCRMTest" duration-ms="40021" started-at="2020-09-02T13:48:40 IST" finished-at="2020-09-02T13:49:21 IST">
+    <test name="Default test" duration-ms="27261" started-at="2020-09-07T11:11:31Z" finished-at="2020-09-07T11:11:59Z">
       <class name="testCases.HomepageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="setUp" is-config="true" duration-ms="10057" started-at="2020-09-02T13:48:41 IST" finished-at="2020-09-02T13:48:51 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="setUp" is-config="true" duration-ms="7884" started-at="2020-09-07T16:41:31Z" finished-at="2020-09-07T16:41:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatelogoTest()[pri:1, instance:testCases.HomepageTest@58c1c010]" name="validatelogoTest" duration-ms="2467" started-at="2020-09-02T13:48:51 IST" finished-at="2020-09-02T13:48:53 IST">
+        <test-method status="PASS" signature="validatelogoTest()[pri:1, instance:testCases.HomepageTest@56cbfb61]" name="validatelogoTest" duration-ms="1711" started-at="2020-09-07T16:41:39Z" finished-at="2020-09-07T16:41:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="tearDown" is-config="true" duration-ms="2070" started-at="2020-09-02T13:48:53 IST" finished-at="2020-09-02T13:48:55 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="tearDown" is-config="true" duration-ms="115" started-at="2020-09-07T16:41:41Z" finished-at="2020-09-07T16:41:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="setUp" is-config="true" duration-ms="10159" started-at="2020-09-02T13:48:55 IST" finished-at="2020-09-02T13:49:05 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="setUp" is-config="true" duration-ms="7843" started-at="2020-09-07T16:41:41Z" finished-at="2020-09-07T16:41:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateUserTest()[pri:2, instance:testCases.HomepageTest@58c1c010]" name="validateUserTest" duration-ms="1447" started-at="2020-09-02T13:49:05 IST" finished-at="2020-09-02T13:49:07 IST">
+        <test-method status="PASS" signature="validateUserTest()[pri:2, instance:testCases.HomepageTest@56cbfb61]" name="validateUserTest" duration-ms="1658" started-at="2020-09-07T16:41:49Z" finished-at="2020-09-07T16:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="tearDown" is-config="true" duration-ms="751" started-at="2020-09-02T13:49:07 IST" finished-at="2020-09-02T13:49:07 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="tearDown" is-config="true" duration-ms="106" started-at="2020-09-07T16:41:51Z" finished-at="2020-09-07T16:41:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="setUp" is-config="true" duration-ms="10496" started-at="2020-09-02T13:49:07 IST" finished-at="2020-09-02T13:49:18 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="setUp" is-config="true" duration-ms="5169" started-at="2020-09-07T16:41:51Z" finished-at="2020-09-07T16:41:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateContactsPageTest()[pri:3, instance:testCases.HomepageTest@58c1c010]" name="validateContactsPageTest" duration-ms="1778" started-at="2020-09-02T13:49:18 IST" finished-at="2020-09-02T13:49:20 IST">
+        <test-method status="PASS" signature="validateContactsPageTest()[pri:3, instance:testCases.HomepageTest@56cbfb61]" name="validateContactsPageTest" duration-ms="2630" started-at="2020-09-07T16:41:56Z" finished-at="2020-09-07T16:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactsPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@58c1c010]" name="tearDown" is-config="true" duration-ms="740" started-at="2020-09-02T13:49:20 IST" finished-at="2020-09-02T13:49:21 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="tearDown" is-config="true" duration-ms="109" started-at="2020-09-07T16:41:59Z" finished-at="2020-09-07T16:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.HomepageTest -->
-    </test> <!-- FreeCRMTest -->
-  </suite> <!-- Default Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

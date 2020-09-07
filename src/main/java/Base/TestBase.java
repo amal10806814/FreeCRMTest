@@ -16,7 +16,7 @@ public class TestBase {
 
     public TestBase() throws IOException {
         prop = new Properties();
-        FileInputStream fis = new FileInputStream("D:\\FreeCRMTest\\src\\main\\java\\config\\config.properties");
+        FileInputStream fis = new FileInputStream("/Users/Chaudhary/Documents/GIT_Projects/FreeCRMTest/src/main/java/config/config.properties");
         prop.load(fis);
     }
 
@@ -26,12 +26,12 @@ public class TestBase {
 
         if(browserName.equalsIgnoreCase("chrome"))
         {
-            System.setProperty("webdriver.chrome.driver" , "D:\\ChromeDriver\\new\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver" , "/Users/Chaudhary/Documents/Drivers/chromedriver");
             driver = new ChromeDriver();
         }
         else if (browserName.equalsIgnoreCase("FF"))
         {
-            System.setProperty("webdriver.geeko.driver" , "D:\\ChromeDriver\\GeekoDriver\\geckodriver.exe");
+          //  System.setProperty("webdriver.geeko.driver" , "D:\\ChromeDriver\\GeekoDriver\\geckodriver.exe");
             driver = new ChromeDriver();
         }
         driver.manage().window().maximize();
