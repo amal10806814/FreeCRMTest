@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27261" started-at="2020-09-07T11:11:31Z" finished-at="2020-09-07T11:11:59Z">
+  <suite name="Default suite" duration-ms="24397" started-at="2020-10-08T07:26:25Z" finished-at="2020-10-08T07:26:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27261" started-at="2020-09-07T11:11:31Z" finished-at="2020-09-07T11:11:59Z">
-      <class name="testCases.HomepageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="setUp" is-config="true" duration-ms="7884" started-at="2020-09-07T16:41:31Z" finished-at="2020-09-07T16:41:39Z">
+    <test name="Default test" duration-ms="24397" started-at="2020-10-08T07:26:25Z" finished-at="2020-10-08T07:26:49Z">
+      <class name="testCases.ExcelReadTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.ExcelReadTest@7c30a502]" name="openBrowser" is-config="true" duration-ms="12020" started-at="2020-10-08T12:56:26Z" finished-at="2020-10-08T12:56:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validatelogoTest()[pri:1, instance:testCases.HomepageTest@56cbfb61]" name="validatelogoTest" duration-ms="1711" started-at="2020-09-07T16:41:39Z" finished-at="2020-09-07T16:41:41Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.ExcelReadTest@7c30a502]" name="loginTest" duration-ms="826" started-at="2020-10-08T12:56:38Z" data-provider="readData" finished-at="2020-10-08T12:56:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatelogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="tearDown" is-config="true" duration-ms="115" started-at="2020-09-07T16:41:41Z" finished-at="2020-09-07T16:41:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="setUp" is-config="true" duration-ms="7843" started-at="2020-09-07T16:41:41Z" finished-at="2020-09-07T16:41:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateUserTest()[pri:2, instance:testCases.HomepageTest@56cbfb61]" name="validateUserTest" duration-ms="1658" started-at="2020-09-07T16:41:49Z" finished-at="2020-09-07T16:41:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="tearDown" is-config="true" duration-ms="106" started-at="2020-09-07T16:41:51Z" finished-at="2020-09-07T16:41:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="setUp" is-config="true" duration-ms="5169" started-at="2020-09-07T16:41:51Z" finished-at="2020-09-07T16:41:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateContactsPageTest()[pri:3, instance:testCases.HomepageTest@56cbfb61]" name="validateContactsPageTest" duration-ms="2630" started-at="2020-09-07T16:41:56Z" finished-at="2020-09-07T16:41:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateContactsPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomepageTest@56cbfb61]" name="tearDown" is-config="true" duration-ms="109" started-at="2020-09-07T16:41:59Z" finished-at="2020-09-07T16:41:59Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.ExcelReadTest@7c30a502]" name="tearDown" is-config="true" duration-ms="480" started-at="2020-10-08T12:56:39Z" finished-at="2020-10-08T12:56:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.HomepageTest -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testCases.ExcelReadTest@7c30a502]" name="openBrowser" is-config="true" duration-ms="7656" started-at="2020-10-08T12:56:39Z" finished-at="2020-10-08T12:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.ExcelReadTest@7c30a502]" name="loginTest" duration-ms="1215" started-at="2020-10-08T12:56:47Z" data-provider="readData" finished-at="2020-10-08T12:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gaurav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.ExcelReadTest@7c30a502]" name="tearDown" is-config="true" duration-ms="651" started-at="2020-10-08T12:56:48Z" finished-at="2020-10-08T12:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ExcelReadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

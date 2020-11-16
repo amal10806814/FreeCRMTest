@@ -17,6 +17,9 @@ public class HomePage extends TestBase {
 
     @FindBy(xpath = "//span[contains(text(),'Contacts')]")
     WebElement Contacts;
+    
+    @FindBy(xpath = "//span[contains(text(),'Deals')]")
+    WebElement Deals;
 
     public HomePage () throws IOException {
         super();
@@ -36,6 +39,12 @@ public class HomePage extends TestBase {
     public ContactsPage clickContacts() throws IOException {
          Contacts.click();
          return new ContactsPage();
+    }
+    
+    public DealsPage clickDeals() throws IOException
+    {
+    	Deals.click();;
+    	return new DealsPage();
     }
 
 }

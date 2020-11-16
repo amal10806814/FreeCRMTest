@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM Test Suite]">
+  <listeners>
+    <listener class-name="testUtil.ExtentReportNG"/>
+  </listeners>
+  <test name="FreeCRM test">
+    <classes>
+      <class name="testCases.ContactsPageTest"/>
+      <class name="testCases.DealsPageTest"/>
+      <class name="testCases.HomepageTest"/>
+      <class name="testCases.LoginTest"/>
+    </classes>
+  </test> <!-- FreeCRM test -->
+  <test name="FreeCRM test(failed)">
+    <classes>
+      <class name="testCases.ContactsPageTest">
+        <methods>
+          <include name="contactLogoTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.ContactsPageTest -->
+      <class name="testCases.DealsPageTest">
+        <methods>
+          <include name="createDealTest" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.DealsPageTest -->
+      <class name="testCases.HomepageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.HomepageTest -->
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+    </classes>
+  </test> <!-- FreeCRM test(failed) -->
+</suite> <!-- Failed suite [FreeCRM Test Suite] -->

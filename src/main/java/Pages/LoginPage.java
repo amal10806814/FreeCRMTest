@@ -11,8 +11,8 @@ public class LoginPage extends TestBase {
 
     //page factory -- Object repository
 
-    @FindBy(name = "email")
-    WebElement username;
+    @FindBy(name = "email") //setting wbelement
+    WebElement username; 
 
     @FindBy(name = "password")
     WebElement password ;
